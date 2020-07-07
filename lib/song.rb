@@ -24,4 +24,8 @@ class Song
     Song.new(song)
   end
 
+  ###############Song And Artist
+
+  def
+
 end
