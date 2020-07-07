@@ -28,6 +28,8 @@ class Song
   ###############Song And Artist
 
   def artist=(artist)
+    @artist = artist
+    artist.add_song(self)
   end
 
 
