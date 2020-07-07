@@ -35,7 +35,7 @@ class Artist
   end
 
   def genres
-    Genres.artist
+
   end
 
 
