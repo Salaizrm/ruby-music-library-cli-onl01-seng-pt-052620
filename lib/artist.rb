@@ -25,8 +25,6 @@ class Artist
     Artist.new(artist)
   end
 
-  ##################Song And Artist
-
   def songs
     @songs
   end
