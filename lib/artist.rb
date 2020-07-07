@@ -20,8 +20,7 @@ class Artist
     @@all << self
   end
 
-  def self.create(song)
-    Song.new(song)
+  def self.create
   end
 
 end
