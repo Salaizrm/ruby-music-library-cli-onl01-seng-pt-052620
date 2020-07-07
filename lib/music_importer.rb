@@ -6,10 +6,11 @@ class MusicImporter
     @path = path
   end
 
-  def path
+  def files
+    @files ||= Dir.glob("#{path}/*.mp3")
   end
 
-  def files
+  def import
   end
 
 end
