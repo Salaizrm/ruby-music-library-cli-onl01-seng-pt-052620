@@ -27,6 +27,5 @@ class Song
 
   ###############Song And Artist
 
-  def
 
 end
