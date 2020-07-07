@@ -20,7 +20,7 @@ class Genre
     @@all << self
   end
 
-  def self.create(song)
+  def self.create
   end
 
 end
