@@ -28,6 +28,7 @@ class Song
   ###############Song And Artist
 
   def artist=(artist)
+  end
 
 
 end
