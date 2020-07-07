@@ -38,6 +38,6 @@ class Song
   end
 
   def self.find_by_name
-    all.find do {|s| s.name = self }
+    all.find do {|s| s.name == self }
   end
 end
