@@ -20,8 +20,7 @@ class Genre
     @@all << self
   end
 
-  def self.create(artist)
-    Artist.new(artist)
+  def self.create
   end
 
 end
