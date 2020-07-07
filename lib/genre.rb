@@ -25,4 +25,8 @@ class Genre
     Genre.new(genre)
   end
 
+  def songs
+    @songs
+  end
+
 end
